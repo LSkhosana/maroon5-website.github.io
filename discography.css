@@ -1,0 +1,160 @@
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding:  1em;
+    border-style:outset;
+    border-color: white;
+    border-width: 0.2em;
+
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.logo img {
+    width: 13em; 
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    display:inline;
+    
+}
+
+nav ul li a:hover {
+    color: rgb(255, 64, 64);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+
+}
+
+.picture{
+    margin: 150px auto;
+    width: 90%;
+    
+
+}
+
+
+#img1{
+    max-width: 500px;
+    float: left;
+    margin-right: 15px;
+}
+
+.text-box{
+    color: white;
+
+}
+.text-box h2{
+    font-size: 40px;
+    color: #fff;
+}
+.text-box p{
+    font-size: 16px;
+}
+
+.picture-2{
+    margin: 150px auto;
+    width: 90%;
+
+}
+
+
+    #img2{
+    max-width: 500px;
+    float: right;
+    margin-right: 15px;
+}
+
+.text-box-2{
+    color: white;
+
+}
+.text-box-2 h2{
+    font-size: 40px;
+    color: #fff;
+    
+}
+.text-box-2 p{
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: rgb(176, 255, 176);
+
+  }
+
+  #button:link{
+    color: black;
+    font-size: 30px;
+    border-style: inset;
+    padding: 10px;
+    border-radius: 5em;
+    text-decoration: none;
+    background-color: #fff;
+    
+
+  }
+
+  .button2:hover{
+    background-color: rgb(176, 255, 176);
+
+  }
+
+  #button2:link{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-style: inset;
+    padding: 10px;
+    border-radius: 5em;
+    text-decoration: none;
+    float: right;
+    margin-right: 15px;
+    background-color: white;
+    
+
+  }
+
+  body{
+    background: linear-gradient(rgb(255, 56, 56),rgb(199, 31, 254));
+    background-repeat: no-repeat;
+
+  }
+  
+  
+
+
+

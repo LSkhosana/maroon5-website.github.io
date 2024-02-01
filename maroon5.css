@@ -1,0 +1,154 @@
+body{
+    background-color: white;
+    background-image: url(/art\ work.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    
+}
+
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ffffff;
+    color: #fff;
+    padding:  20px;
+    border-style:outset;
+    border-color: white;
+    border-width: 0.2em;
+    z-index: 1000;
+
+
+}
+
+
+.menu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.logo img {
+    width: 13em; 
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    display:inline;
+    
+}
+
+nav ul li a:hover {
+    color: rgb(255, 64, 64);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+
+}
+
+
+
+.group {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 60em;
+    position: relative;
+
+}
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.8s;
+
+
+}
+
+.text:hover{
+    opacity: 0.6;
+}
+
+.text p{
+    font-size: 2em;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.ap p{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: outset;
+    border-radius: 15px;
+    border-width: 10px ;
+    border-color: rgb(255, 64, 64);
+    padding: 10px;
+    background:linear-gradient(rgb(255, 64, 64),rgb(172, 83, 255))
+}
+.ap h1{
+    text-align: center;
+    
+
+}
+
+.footer{
+    background-color:rgb(255, 64, 64) ;
+}
+    
+
+
